@@ -14,6 +14,7 @@ int main(int argc, char* argv[])
 	product.Attach(&shop1);
 	product.Attach(&shop2);
 	//write something to testt 2 
+	//write something for test1 hahaha
 	//Now lets try chaging the products price, this should update the shops automatically
 	product.ChangePrice(23.0f);
 
