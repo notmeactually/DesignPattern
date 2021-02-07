@@ -3,5 +3,6 @@
 class IObserver
 {
 public:
-	virtual void Update(float price) = 0;
+	virtual void UpdatePrice(float price) = 0;
+	virtual void UpdateNumber(int number) = 0;
 };

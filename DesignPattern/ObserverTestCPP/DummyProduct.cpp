@@ -2,5 +2,10 @@
 
 void DummyProduct::ChangePrice(float price)
 {
-    Notify(price);
+    NotifyPrice(price);
+}
+
+void DummyProduct::ChangeNumber(int number)
+{
+    NotifyNumber(number);
 }

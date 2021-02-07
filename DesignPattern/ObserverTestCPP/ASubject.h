@@ -11,5 +11,6 @@ class ASubject
 public:
 	void Attach(Shop *product);
     void Detach(Shop *product);
-	void Notify(float price); 
+	void NotifyPrice(float price);
+	void NotifyNumber(int price);
 };

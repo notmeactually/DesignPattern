@@ -13,11 +13,10 @@ int main(int argc, char* argv[])
 
 	product.Attach(&shop1);
 	product.Attach(&shop2);
-	//write something to testt 2 
-	//write something for test1 hahaha
-	//please appear 
+
 	//Now lets try chaging the products price, this should update the shops automatically
 	product.ChangePrice(23.0f);
+	product.ChangePrice(886);
 
 	//Now shop2 is not interested in new prices so they unsubscribe
 	product.Detach(&shop2);            

@@ -5,4 +5,5 @@ class DummyProduct : public ASubject
 {
 public:
 	void ChangePrice(float price);
+	void ChangeNumber(int number);
 };
